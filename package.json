@@ -1,6 +1,6 @@
 {
     "name": "remark-tweetthis",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Makes pieces of Markdown language tweetable.",
     "main": "index.js",
     "scripts": {
