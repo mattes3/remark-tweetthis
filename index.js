@@ -1,6 +1,5 @@
 'use strict';
 const visit = require('unist-util-visit')
-var u = require('unist-builder');
 
 module.exports = ({ markdownAST }, pluginOptions = { siteUrl: 'https://example.com/blog', tweetAs: 'twitteruser' }) => {
     visit(markdownAST, 'linkReference', replaceTweet);
