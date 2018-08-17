@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plugin should replace tweet tag by correct HTML 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 4,
+              "line": 2,
+              "offset": 4,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 2,
+              "offset": 1,
+            },
+          },
+          "type": "html",
+          "value": "<a>",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 7,
+              "line": 2,
+              "offset": 7,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 4,
+              "line": 2,
+              "offset": 4,
+            },
+          },
+          "type": "html",
+          "value": "<b>",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 8,
+              "line": 2,
+              "offset": 8,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 7,
+              "line": 2,
+              "offset": 7,
+            },
+          },
+          "type": "text",
+          "value": "c",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 12,
+              "line": 2,
+              "offset": 12,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 8,
+              "line": 2,
+              "offset": 8,
+            },
+          },
+          "type": "html",
+          "value": "</b>",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 16,
+              "line": 2,
+              "offset": 16,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 12,
+              "line": 2,
+              "offset": 12,
+            },
+          },
+          "type": "html",
+          "value": "</a>",
+        },
+        Object {
+          "position": Position {
+            "end": Object {
+              "column": 1,
+              "line": 3,
+              "offset": 17,
+            },
+            "indent": Array [
+              1,
+            ],
+            "start": Object {
+              "column": 16,
+              "line": 2,
+              "offset": 16,
+            },
+          },
+          "type": "text",
+          "value": "
+",
+        },
+        Object {
+          "identifier": "tweet",
+          "position": Position {
+            "end": Object {
+              "column": 38,
+              "line": 3,
+              "offset": 54,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 3,
+              "offset": 17,
+            },
+          },
+          "referenceType": "full",
+          "type": "html",
+          "value": "<span class=\\"tweet-span-class\\"><span class=\\"tweet-text-span-class\\"><a href=\\"https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2FblogPAGE_SLUG&text=This%20is%20a%20text%20to%20be%20tweeted&via=twitteruser\\" target=\\"_blank\\" rel=\\"noopener noreferrer nofollow\\">This is a text to be tweeted</a></span><a href=\\"https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2FblogPAGE_SLUG&text=This%20is%20a%20text%20to%20be%20tweeted&via=twitteruser\\" target=\\"_blank\\" rel=\\"noopener noreferrer nofollow\\" class=\\"tweet-button-span-class\\">Tweet this</a></span>",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 38,
+          "line": 3,
+          "offset": 54,
+        },
+        "indent": Array [
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 4,
+      "offset": 55,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;

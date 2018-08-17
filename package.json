@@ -1,0 +1,31 @@
+{
+    "name": "remark-tweetthis",
+    "version": "1.0.0",
+    "description": "Makes pieces of Markdown language tweetable.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "updateSnapshot": "jest --updateSnapshot"
+    },
+    "keywords": [
+        "markdown",
+        "remark",
+        "twitter"
+    ],
+    "author": "Matthias Bohlen",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattes3/remark-tweetthis.git"
+    },
+    "devDependencies": {
+        "jest": "^23.5.0",
+        "remark": "^9.0.0",
+        "remark-html": "^8.0.0",
+        "vfile-reporter": "^5.0.0"
+    },
+    "dependencies": {
+        "unist-builder": "^1.0.2",
+        "unist-util-visit": "^1.4.0"
+    }
+}
