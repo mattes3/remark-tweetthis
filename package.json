@@ -25,6 +25,6 @@
         "vfile-reporter": "^5.0.0"
     },
     "dependencies": {
-        "unist-util-visit": "^1.4.0"
+        "unist-util-visit": "^2.0.3"
     }
 }
