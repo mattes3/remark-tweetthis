@@ -21,7 +21,7 @@
     "devDependencies": {
         "jest": "^26.1.0",
         "remark": "^12.0.1",
-        "remark-html": "^8.0.0",
+        "remark-html": "^11.0.2",
         "vfile-reporter": "^6.0.1"
     },
     "dependencies": {
