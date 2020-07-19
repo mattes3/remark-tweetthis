@@ -19,7 +19,7 @@
         "url": "https://github.com/mattes3/remark-tweetthis.git"
     },
     "devDependencies": {
-        "jest": "^23.5.0",
+        "jest": "^26.1.0",
         "remark": "^12.0.1",
         "remark-html": "^8.0.0",
         "vfile-reporter": "^6.0.1"
